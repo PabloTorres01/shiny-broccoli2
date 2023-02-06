@@ -5,11 +5,12 @@
 
 .coin-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   height: auto;
   border-bottom: 1px solid #d7d7d7;
   width: 100%;
+  
 }
 
 .coin {
@@ -20,14 +21,14 @@
 }
 
 .coin h1 {
-  font-size: 16px;
+  font-size: 18px;
   width: 100%;
   text-align: center;
 }
 
 .coin img {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   margin: 0 auto 10px auto;
 }
 
@@ -43,7 +44,12 @@
   width: 100%;
 }
 
-.coin-price, .coin-volume, .coin-marketcap, .coin-percent {
+.coin-price {font-size: 18px;
+  font-style:initial;
+  width: 100%;
+  text-align: center;}
+
+.coin-volume, .coin-marketcap, .coin-percent {
   width: 100%;
   text-align: center;
 }
